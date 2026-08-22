@@ -144,4 +144,4 @@ foreach ($f in $files) {
     }
 }
 
-Write-Output "完了: $totalSaved 枚のパークアイコンを $OutDir に保存しました。"
+Write-Output "Done: processed $($files.Count) input file(s), saved $totalSaved perk icon(s) to $OutDir."
